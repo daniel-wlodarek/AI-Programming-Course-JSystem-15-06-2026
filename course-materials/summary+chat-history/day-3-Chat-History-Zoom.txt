@@ -1,211 +1,210 @@
-2026-06-17 08:24:55 From Kamil Bucholc To Everyone:
+2026-06-17 08:24:55 From Kamil To Everyone:
 	Ja śmiało mogę przedłużyć dzisiaj. Prosiłbym tylko o planową przerwę o 11:00, gdyż muszę wtedy w pracy na 15 minut podłączyć się na call w pracy. Jeżeli będzie wtedy zły czas na przerwę, to rozumiem, bo zaczynamy później - w miarę możliwości mówcie wtedy please o mniej krytycznych tematach 😄
-	
-2026-06-17 08:28:29 From Olivia JF To JSystems Szkolenia (direct message):
+
+2026-06-17 08:28:29 From Olivia To JSystems Szkolenia (direct message):
 	Jeśli byłaby możliwość to przedłużmy proszę w inny dzień niż dzisiaj, bo o 16.00 muszę równo skończyć (moje dziecko jest w szpitalu od paru dni i muszę mieć czas na dojazd do 16.30 na zmianę). Najlepiej gdyby udało się z wyprzedzeniem ustalić kiedy przedłużamy lub rozpoczynamy wcześniej.
-	
-2026-06-17 08:46:34 From Piotr K. To JSystems Szkolenia (direct message):
+
+2026-06-17 08:46:34 From Piotr To JSystems Szkolenia (direct message):
 	Łukasz, musiałem robić PRD u mnie lokalnie, bo po 17 nie działał już zdalny host Windows. I teraz nie widzę historii na koncie claude'a na zdalnym hoście. To samo konto. Pewnie nie mam coś aktywowanego do zdalnej synchronizacji? Jakby była chwila, prosiłbym o pomoc, dzięki
-	
+
 2026-06-17 08:47:15 From JSystems Szkolenia To Everyone:
 	Prompt przykładowy do PRD
 	PRD-electronics-returns-complains-app.md
-	
+
 2026-06-17 08:50:00 From JSystems Szkolenia To Everyone:
-	
+
 	- Date of purchase (date picker)
-	
+
 2026-06-17 09:06:24 From JSystems Szkolenia To Everyone:
 	Flameshot - dla screenów
 	BTOP - lepszy top, procesy, GPU itd. (htop też jest fajny)
-	
+
 2026-06-17 09:07:25 From JSystems Szkolenia To Everyone:
 	Atuin - historia bash / powershell
-	
+
 2026-06-17 09:11:11 From JSystems Szkolenia To Everyone:
 	eza - ulepszony ls
-	
-2026-06-17 09:16:25 From Daniel Włodarek To Everyone:
+
+2026-06-17 09:16:25 From Daniel To Everyone:
 	API Error: 529 {"type":"error","error":{"type":"overloaded_error","message":"Overloaded"},"request_id":"req_011Cc8VwwPEy77TrobkynV2f"}
-	
+
 2026-06-17 09:17:28 From JSystems Szkolenia To Everyone:
-	https://status.claude.com/ 
-	
+	https://status.claude.com/
+
 	Status Claude
-	
+
 2026-06-17 09:32:30 From JSystems Szkolenia To Everyone:
 	AG-UI protocol https://docs.ag-ui.com/introduction
-	
+
 2026-06-17 09:37:28 From JSystems Szkolenia To Everyone:
-	Flowise AI https://flowiseai.com/ 
+	Flowise AI https://flowiseai.com/
 	dla agentów i multi-agentów
-	
+
 	lepszy od n8n w systemach wielu agentów, oparty o LangChain, LangGraph oraz LlamaIndex
-	
+
 2026-06-17 09:38:51 From JSystems Szkolenia To Everyone:
 	AG-UI protocol do kontroli UI przez agentów:
 	https://docs.ag-ui.com/introduction (SDK dla różnych języków)
-	
+
 2026-06-17 09:39:09 From JSystems Szkolenia To Everyone:
 	CopilotKit - UI components oparte o AG-UI
 	https://www.copilotkit.ai/examples
-	
-2026-06-17 09:46:43 From Wojciech Łowczecki To Everyone:
+
+2026-06-17 09:46:43 From Wojciech To Everyone:
 	https://chatgpt.com/share/6a325ec1-58ac-83eb-99f0-0ce496ad5cf7
-	
+
 2026-06-17 09:49:27 From JSystems Szkolenia To Everyone:
 	Poprawiony PRD
 	PRD-electronics-returns-complains-app.md
-	
-2026-06-17 10:02:09 From Kamil Bucholc To Everyone:
+
+2026-06-17 10:02:09 From Kamil To Everyone:
 	ja muszę lecieć na call, do zobaczenia
-	
+
 2026-06-17 10:05:11 From JSystems Szkolenia To Everyone:
 	zainicjuj git init oraz zrób pierwszy commit abyśmy mieli czysty start
-	
+
 2026-06-17 10:08:02 From JSystems Szkolenia To Everyone:
 	koniec przerwy 11:25
-	
-2026-06-17 10:26:32 From Kamil Bucholc To Everyone:
+
+2026-06-17 10:26:32 From Kamil To Everyone:
 	jj
-	
+
 2026-06-17 10:51:11 From JSystems Szkolenia To Everyone:
 	Narzędzia do testowania aplikacji AI:
-	
-	https://www.promptfoo.dev/ 
+
+	https://www.promptfoo.dev/
 	langfuse.com
-	
+
 2026-06-17 10:54:26 From JSystems Szkolenia To Everyone:
 	Evals / LLM Evaluation
 	Ocena wyników i pracy agentóœ / LLMs
-	
+
 2026-06-17 10:55:53 From JSystems Szkolenia To Everyone:
 	https://smith.langchain.com/
-	
+
 2026-06-17 11:02:25 From JSystems Szkolenia To Everyone:
 	/resume - poprzednia sesja
 	claude --continue
-	
-2026-06-17 11:23:40 From Wojciech Łowczecki To Everyone:
+
+2026-06-17 11:23:40 From Wojciech To Everyone:
 	{D64EFE97-8728-4DE2-AF24-57E6A0C34AC7}.png
-	
+
 2026-06-17 11:43:05 From JSystems Szkolenia To Everyone:
-	https://www.designarena.ai/leaderboard 
-	https://x.com/Designarena 
-	
+	https://www.designarena.ai/leaderboard
+	https://x.com/Designarena
+
 	https://pontis-hr.designarena.ai/
-	
+
 2026-06-17 11:44:36 From JSystems Szkolenia To Everyone:
-	https://x.com/Zai_org/status/2066938937344495629 
-	
+	https://x.com/Zai_org/status/2066938937344495629
+
 	GLM 5.2
-	
+
 2026-06-17 11:47:32 From JSystems Szkolenia To Everyone:
-	🚀 You’ve been invited to join the GLM Coding Plan! Enjoy full support for Claude Code, Cline, and 20+ top coding tools — starting at just $18/month. Subscribe now and grab the limited-time deal! 
+	🚀 You’ve been invited to join the GLM Coding Plan! Enjoy full support for Claude Code, Cline, and 20+ top coding tools — starting at just $18/month. Subscribe now and grab the limited-time deal!
 	👉Join now: https://z.ai/subscribe?ic=IA5VBRGQV4
-	
+
 2026-06-17 11:51:32 From JSystems Szkolenia To Everyone:
-	https://marketplace.visualstudio.com/items?itemName=MermaidChart.vscode-mermaid-chart 
-	
+	https://marketplace.visualstudio.com/items?itemName=MermaidChart.vscode-mermaid-chart
+
 	Diagramy w Markdown
-	
+
 2026-06-17 11:59:23 From JSystems Szkolenia To Everyone:
-	https://zed.dev/ 
+	https://zed.dev/
 	IDE w Rust z agentami AI
-	
+
 2026-06-17 12:19:31 From JSystems Szkolenia To Everyone:
 	Create a design system that will be mimicking and cloning the style and the vibe of the Spotify application. And use the exact Spotify application as a source of assets and as a source of styles and everything like phones and so on. So visit this application and use this skill to create this design system that we will use to create our application in the future that will be similar to Spotify.
-	
+
 	https://open.spotify.com/
-	
+
 2026-06-17 12:20:05 From JSystems Szkolenia To Everyone:
 	https://handy.computer/
-	
+
 2026-06-17 12:35:13 From JSystems Szkolenia To Everyone:
 	14:20 - koniec przerwy
-	
-2026-06-17 13:37:23 From Marcin Czopka To Everyone:
+
+2026-06-17 13:37:23 From Marcin To Everyone:
 	Hej, mam problem
 	W codex dostaje komunikat:
 	The 'gpt-5.3-codex' model is not supported when using Codex with a ChatGPT account.
-	
+
 	Mam wylogowane wszystkie inne sesje
-	
-2026-06-17 13:39:45 From Daniel Włodarek To Everyone:
+
+2026-06-17 13:39:45 From Daniel To Everyone:
 	Screenshot2026_06_17_143940.jpg
-	Wojciech Łowczecki, Kamil Bucholc, Pawel:👍🏻
+	Wojciech, Kamil, Pawel:👍🏻
 	Pawel:👏
-	
+
 2026-06-17 14:32:53 From JSystems Szkolenia To Everyone:
 	Hooks - automatyzacje programistyczne / deterministyczne:
-	https://code.claude.com/docs/en/hooks 
-	
-	https://developers.openai.com/codex/hooks 
-	
+	https://code.claude.com/docs/en/hooks
+
+	https://developers.openai.com/codex/hooks
+
 	Chyba dla Antigravity 2.0 (do sprawdzenia):
 	https://github.com/google-antigravity/antigravity-sdk-python/blob/main/google/antigravity/hooks/README.md
-	
+
 2026-06-17 14:40:05 From JSystems Szkolenia To Everyone:
-	Ultra Review 
+	Ultra Review
 	https://code.claude.com/docs/en/ultrareview
-	
+
 2026-06-17 14:41:05 From JSystems Szkolenia To Everyone:
 	ultra plan
 	https://code.claude.com/docs/en/ultraplan
-	
+
 2026-06-17 15:01:09 From JSystems Szkolenia To Everyone:
 	Create one granular commit for all changes you made in this session. Do not touch any other changes that are in the repository.
-	
-2026-06-17 15:03:59 From Olivia JF To Everyone:
+
+2026-06-17 15:03:59 From Olivia To Everyone:
 	Dziękuję za dzisiaj. Muszę kończyć.
-	
-2026-06-17 15:12:52 From Kamil Bucholc To Everyone:
+
+2026-06-17 15:12:52 From Kamil To Everyone:
 	Przeprasza, też muszę już kończyć. Dzięki wielkie!
-	
+
 2026-06-17 15:13:41 From JSystems Szkolenia To Everyone:
 	/create-adr Based on the product requirements documents and information you have about the project. That is not initialized yet. You should create architecture decision records with specific tools, specific patterns, and implementation details. To implement the product requirements document application. And you should do research on the tools I suggest to use: Next.js and TypeScript with TailwindCSS for UI components.
-	
-2026-06-17 15:14:07 From Piotr K. To Everyone:
+
+2026-06-17 15:14:07 From Piotr To Everyone:
 	dzięki za dziś
-	
+
 2026-06-17 15:14:13 From JSystems Szkolenia To Everyone:
 	1. Generate ADR
 	2. Generate example 2 wireframes of example 2 views
-	
-2026-06-17 15:14:34 From Szymon Auguścik To Everyone:
+
+2026-06-17 15:14:34 From Szymon To Everyone:
 	Również muszę uciekać. Dzięki!
-	
+
 2026-06-17 15:15:44 From JSystems Szkolenia To Everyone:
 	https://github.com/openai/openai-java
-	
+
 2026-06-17 15:18:25 From JSystems Szkolenia To Everyone:
-	LangGraph 4 Java: https://langgraph4j.github.io/langgraph4j/ 
-	
-	LangChain 4 Java https://github.com/langchain4j/langchain4j 
-	
+	LangGraph 4 Java: https://langgraph4j.github.io/langgraph4j/
+
+	LangChain 4 Java https://github.com/langchain4j/langchain4j
+
 	LangGraph 4 Java z CopilotKit AG-UI:
 	https://github.com/langgraph4j/langgraph4j-copilotkit
-	
+
 2026-06-17 15:18:48 From JSystems Szkolenia To Everyone:
 	https://www.assistant-ui.com/
-	
+
 2026-06-17 15:19:48 From JSystems Szkolenia To Everyone:
 	Java wersja prosta:
-	https://www.assistant-ui.com/ 
+	https://www.assistant-ui.com/
 	+ OpenAI Java SDK
-	
+
 	(ewentualnie LangChain4j)
-	
+
 	Zaawansowana:
 	LangGraph4j + CopilotKit
-	
+
 2026-06-17 15:35:54 From JSystems Szkolenia To Everyone:
 	AG-UI Java
 	https://github.com/ag-ui-protocol/ag-ui/blob/main/docs/sdk/java/overview.mdx
-	
+
 2026-06-17 15:48:11 From JSystems Szkolenia To Everyone:
-	https://json-schema.org/ 
-	
+	https://json-schema.org/
+
 	Structured Outputs:
 	https://developers.openai.com/api/docs/guides/structured-outputs
-	
