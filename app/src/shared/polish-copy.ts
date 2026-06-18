@@ -50,3 +50,9 @@ export const assessmentFormCopy = {
   removeImage: "Usuń zdjęcie",
   submit: "Przygotuj ocenę",
 } as const;
+
+export const assessmentFlowCopy = {
+  processing: "Analizujemy zdjęcie i przygotowujemy ocenę...",
+  retry: "Spróbuj ponownie",
+  backToForm: "Wróć do formularza",
+} as const;
