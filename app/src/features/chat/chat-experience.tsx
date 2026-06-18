@@ -90,6 +90,7 @@ export function ChatExperience({
                   ? "justify-self-end bg-[var(--color-brand-primary)] text-[var(--color-text-on-brand)]"
                   : "justify-self-start bg-[var(--color-bg-elevated)] text-[var(--color-text-primary)]"
               }`}
+              data-chat-role={message.role}
             >
               {message.role === "assistant" && isRevisedRecommendation(text) ? (
                 <p className="mb-2 text-xs font-bold uppercase text-[var(--color-brand-warning)]">
