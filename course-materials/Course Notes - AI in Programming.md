@@ -111,6 +111,54 @@ Notes from course for JSystem — AI dla programistów: od pomysłu do MVP
 - Long Video Courses are dying - people stop to use Udemy and similar platforms
 	- [Why I stopped making coding tutorials - YouTube](https://www.youtube.com/watch?v=WCGTQBCE3FA)
 
+### People and accounts to follow in AI
+
+#### 📺 YouTube
+
+- [Theo T3](https://www.youtube.com/@t3dotgg) — from TS, Web App and startup perspective
+- [Nate B Jones](https://www.youtube.com/@NateBJones) — Deep thoughts on AI architecture, insights, deep dives
+- [Silicon Valley Girl](https://www.youtube.com/@SiliconValleyGirl) — from startup and woman perspective, interviews
+- [Alex Ziskind](https://www.youtube.com/@AZisk) — from Hardware perspective, testing GPUs, Local AI Models, Benchmarks
+- [AI Code King](https://www.youtube.com/@AICodeKing) — Open Source, Coding Tools, alternative perspective
+- [Matthew Berman](https://www.youtube.com/@matthew_berman) — from business and investor perspective, general AI news
+- [Matt Pocock](https://www.youtube.com/@mattpocockuk) — AI Coding tools tips, skills, techniques
+- [Rob Walling](https://www.youtube.com/@RobWalling) — AI in Startups, SaaS, Solo Devs, Bootstrap
+- [YCombinator](https://www.youtube.com/@ycombinator) — AI from Startups and Investors perspective
+- [Claude](https://www.youtube.com/@claude) — official
+- [OpenAI](https://www.youtube.com/@OpenAI) — official
+- [Fireship](https://www.youtube.com/@Fireship) — general AI news
+- [Wes Roth](https://www.youtube.com/@WesRoth) — general AI news
+- [Maximilian Schwarzmüller](https://www.youtube.com/@maximilian-schwarzmueller) — from TS, Web Dev perspective
+- [Traversy Media](https://www.youtube.com/@TraversyMedia) — Web Dev perspective, provocative and honest
+- [Greg Isenberg](https://www.youtube.com/@GregIsenberg) — General AI news and tips
+
+#### 🐦 X.com
+
+- [Andrej Karpathy](https://x.com/karpathy) — ex-OpenAI, Data Science
+- [Paul Rohan](https://x.com/rohanpaul_ai) — Data science, AI deep dive, news
+- [Tibo](https://x.com/thsottiaux) — OpenAI, Codex team
+- [Petter Steinberger](https://x.com/steipete) — OpenClaw founder
+- [Pliny Deliberator](https://x.com/elder_plinius) — Jail Breaking in AI
+- [Boris Cherny](https://x.com/bcherny) — Claude Code creator, Anthropic
+- [Matt Pocock](https://x.com/mattpocockuk) — AI tips in programming
+- [Pieter Levels](https://x.com/levelsio) — famous Solo Dev, Startup founder, AI & bootstrap
+- [Wes Bos](https://x.com/wesbos) — Syntax, AI in Web Dev
+
+#### 🇵🇱 Po polsku
+
+- [Mateusz Chrobok](https://www.youtube.com/@MateuszChrobok) — często o AI i bezpieczeństwie, w ciekawy sposób
+- [This is IT](https://www.youtube.com/@MK_ThisIsIT) — wywiady, często o AI
+	- [Polacy w OpenAI z jednego liceum — Wychował geniuszy ChatGPT](https://www.youtube.com/watch?v=w20lk3OyLMI&t=2s)
+	- [Andrzej Dragan vs Krzysztof Zaręba (OpenAI)](https://www.youtube.com/watch?v=Y4SjbbZ5qoA)
+	- [Krzysztof Zaręba z OpenAI (wywiad)](https://www.youtube.com/watch?v=6QhGUQ5iTdk)
+- [Ania Kubów](https://www.youtube.com/@aniakubow) — po angielsku, ale Polka z Google, Amazon i Microsoft — często wrzuca coś o AI
+- [Przeprogramowani](https://www.youtube.com/@Przeprogramowani) — rzadko wrzucają (i nie zawsze się z nimi zgadzam), ale są newsy AI
+- [Michał Sadowski (Brand24)](https://www.youtube.com/@Michal.Sadowski) — biznes, SaaS, AI, startupy, rzadko wrzuca | [X.com](https://x.com/sadek)
+- [Tomasz Karwatka](https://x.com/tomik99) — często o AI i biznesie, eCommerce (X.com)
+- [Maciej Dobrodziej](https://www.linkedin.com/in/maciejdobrodziej/) — AI w Wideo (bardzo dobre jakościowo) (LinkedIn)
+	- [Smok Wawelski](https://www.linkedin.com/feed/update/urn:li:activity:7337045944347037696)
+	- [Bitwa pod Grunwaldem](https://www.linkedin.com/feed/update/urn:li:activity:7335560375406329856)
+
 ---
 
 ## AI Fundamentals
