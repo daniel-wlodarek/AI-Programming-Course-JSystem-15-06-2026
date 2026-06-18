@@ -15,11 +15,20 @@ const POLICY_PATHS: Record<RequestType, string> = {
   COMPLAINT: "docs/policies/polityka-reklamacji.md",
 };
 
+const POLICY_FILES: Record<RequestType, string> = {
+  RETURN: "polityka-zwrotow.md",
+  COMPLAINT: "polityka-reklamacji.md",
+};
+
 export async function loadPolicy(
   requestType: RequestType,
 ): Promise<PolicyDocument> {
   const relativePath = POLICY_PATHS[requestType];
-  const absolutePath = join(process.cwd(), "..", relativePath);
+  const absolutePath = join(
+    process.cwd(),
+    "src/server/policies/documents",
+    POLICY_FILES[requestType],
+  );
 
   return {
     requestType,
