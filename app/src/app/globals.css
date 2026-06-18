@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  --color-brand-primary: #1ed760;
+  --color-brand-primary-hover: #3be477;
+  --color-brand-primary-active: #1aaf4e;
+  --color-brand-error: #e22134;
+  --color-brand-warning: #ffa42b;
+  --color-bg-default: #000000;
+  --color-bg-base: #121212;
+  --color-bg-tinted: #181818;
+  --color-bg-elevated: #1f1f1f;
+  --color-bg-elevated-highlight: #2a2a2a;
+  --color-bg-press: #333333;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #b3b3b3;
+  --color-text-muted: #7c7c7c;
+  --color-text-on-brand: #000000;
+  --color-border-subtle: rgba(255, 255, 255, 0.1);
+  --color-border-default: #333333;
+  --shadow-card: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --font-primary: "Spotify Mix", "Circular", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--color-bg-default);
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg-default);
+  color: var(--color-text-primary);
+  font-family: var(--font-primary);
+  letter-spacing: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
