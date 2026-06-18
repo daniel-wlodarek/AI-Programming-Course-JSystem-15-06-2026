@@ -1,5 +1,8 @@
 import { defineConfig, devices } from "@playwright/test";
 
+// Playwright/Next force color in child processes; inherited NO_COLOR makes Node warn.
+delete process.env.NO_COLOR;
+
 export default defineConfig({
   testDir: "./tests/e2e",
   timeout: 90_000,
