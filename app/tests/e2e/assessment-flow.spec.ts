@@ -94,6 +94,9 @@ async function sendFollowUp(page: import("@playwright/test").Page, text: string)
   await page.getByRole("button", { name: "Wyślij" }).click();
   const assistant = page.locator('[data-chat-role="assistant"]').last();
   await expect(assistant).toBeVisible({ timeout: 120_000 });
+  await expect(page.getByText("Asystent przygotowuje odpowiedź...")).toBeHidden({
+    timeout: 120_000,
+  });
   const response = (await assistant.textContent()) ?? "";
   expect(response.trim().length).toBeGreaterThanOrEqual(50);
   expect(response.toLowerCase()).toMatch(new RegExp(responseKeywords.join("|"), "i"));
