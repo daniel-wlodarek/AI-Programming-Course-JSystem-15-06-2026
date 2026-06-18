@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { type AssessmentSuccessResponse } from "@/shared/contracts";
 import { assessmentFlowCopy, serviceCopy } from "@/shared/polish-copy";
-import { DecisionCard } from "./decision-card";
+import { ChatExperience } from "@/features/chat/chat-experience";
 import { IntakeForm } from "./intake-form";
 import { type IntakeFormSubmission } from "./types";
 
@@ -65,6 +65,13 @@ export function AssessmentPage() {
     setScreenState("form");
   }
 
+  function handleNewRequest() {
+    setActiveSession(null);
+    setLastSubmission(null);
+    setErrorMessage(serviceCopy.assessmentUnavailable);
+    setScreenState("form");
+  }
+
   return (
     <section className="grid w-full gap-6 py-8">
       {screenState === "form" || screenState === "processing" ? (
@@ -108,9 +115,10 @@ export function AssessmentPage() {
       ) : null}
 
       {screenState === "chat" && activeSession ? (
-        <section aria-label="Czat z asystentem" className="grid gap-4">
-          <DecisionCard decision={activeSession.initialDecision} />
-        </section>
+        <ChatExperience
+          activeSession={activeSession}
+          onNewRequest={handleNewRequest}
+        />
       ) : null}
     </section>
   );
