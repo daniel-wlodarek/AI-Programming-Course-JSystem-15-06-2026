@@ -40,7 +40,7 @@ test.beforeAll(() => {
     throw new Error(
       [
         `Brakuje zmiennych środowiskowych wymaganych do realnych E2E: ${missing.join(", ")}.`,
-        "Ustaw je w powłoce przed uruchomieniem `npm run e2e`; testy E2E nie czytają `.env` i nie mockują OpenRouter.",
+        "Ustaw je w `app/.env` albo w powłoce przed uruchomieniem `npm run e2e`; testy E2E nie mockują OpenRouter.",
         "Wymagane: OPENROUTER_API_KEY, OPENROUTER_CHAT_MODEL, OPENROUTER_VISION_MODEL.",
       ].join(" "),
     );

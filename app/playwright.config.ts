@@ -1,7 +1,10 @@
 import { defineConfig, devices } from "@playwright/test";
+import nextEnv from "@next/env";
 
 // Playwright/Next force color in child processes; inherited NO_COLOR makes Node warn.
 delete process.env.NO_COLOR;
+
+nextEnv.loadEnvConfig(process.cwd());
 
 export default defineConfig({
   testDir: "./tests/e2e",
