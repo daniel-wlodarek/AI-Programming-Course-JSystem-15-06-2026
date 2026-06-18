@@ -32,3 +32,21 @@ export const serviceCopy = {
   chatUnavailable:
     "Nie udało się wysłać odpowiedzi. Spróbuj ponownie za chwilę.",
 } as const;
+
+export const assessmentFormCopy = {
+  title: "Formularz zgłoszeniowy",
+  intro:
+    "Wypełnij dane sprzętu i dodaj jedno zdjęcie, aby przygotować wstępną ocenę.",
+  requestType: "Rodzaj zgłoszenia",
+  category: "Kategoria sprzętu",
+  categoryPlaceholder: "Wybierz kategorię",
+  equipmentName: "Nazwa lub model sprzętu",
+  purchaseDate: "Data zakupu",
+  reason: "Opis usterki lub powód",
+  complaintRequired: "wymagany przy reklamacji",
+  returnOptional: "opcjonalny przy zwrocie",
+  image: "Zdjęcie sprzętu",
+  imageHelp: "JPEG, PNG albo WebP, maksymalnie 10 MB. Jedno zdjęcie na zgłoszenie.",
+  removeImage: "Usuń zdjęcie",
+  submit: "Przygotuj ocenę",
+} as const;

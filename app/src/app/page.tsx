@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { AssessmentPage } from "@/features/assessment/assessment-page";
 
 export default function Page() {
   return (
@@ -23,13 +24,7 @@ export default function Page() {
           </div>
         </header>
 
-        <section className="flex flex-1 items-center justify-center py-10">
-          <div className="w-full rounded-[6px] border border-[var(--color-border-subtle)] bg-[var(--color-bg-tinted)] p-5 shadow-[var(--shadow-card)] sm:p-6">
-            <p className="text-base leading-relaxed text-[var(--color-text-secondary)]">
-              Przygotowujemy narzędzie do wstępnej oceny zwrotów i reklamacji.
-            </p>
-          </div>
-        </section>
+        <AssessmentPage />
       </div>
     </main>
   );
