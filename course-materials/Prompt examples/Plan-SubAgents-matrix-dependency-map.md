@@ -5,7 +5,7 @@ Implement both back end, front end, tests and follow all guidelines from your CL
 I want you to follow instructions and detailed documentation from:
 - Product Requirements Document for functional description,
 - Architecture Decision Records for architecture and implementation technical decisions,
-- Design guidelines to follow the design of our Silky brand
+- Design guidelines to follow the design of our brand
 
 You should provide exact context to specialized agents and orchestrate work of multiple subagents.
 You should not implement anything yourself. You are only orchestrator and manager.
@@ -25,8 +25,9 @@ Agent you should always use to delegate work to based on specialization:
 Files you should use to create detailed plan of implementation of our PoC application:
 - @docs/PRD-Product-Requirements-Document.md
 - @docs/ADR/000-main-architecture.md
-- @docs/ADR/001-backend.md
-- @docs/ADR/002-frontend.md
+- @docs/ADR/001-ai-decision-pipeline.md
+- @docs/ADR/002-frontend-session-ui.md
+- @docs/ADR/003-api-validation-image-handling.md
 - @docs/design-guidelines.md
 
 You should provide exact context needed to every task for every subagent.
@@ -39,4 +40,4 @@ If anything is unclear, you should ask minimum 5 questions to make sure that you
 ---
 
 Result of this prompt is here:
-[day-3-PLAN-dependency-matrix-pararelizm-map.md](../03-2026/day-3-PLAN-dependency-matrix-pararelizm-map.md)
+[PLAN-dependency-matrix-pararelizm-map.md](@docs/plan/PLAN-dependency-matrix-pararelizm-map.md)

@@ -18,6 +18,10 @@ dark, music-first, high-contrast personality.
 | Logo (icon) | [`../assets/logo.svg`](../assets/logo.svg) | Spotify circle mark, green `#1ED760`, `viewBox 0 0 24 24` |
 | Favicon | [`../assets/favicon.svg`](../assets/favicon.svg) | Rounded dark tile with the green mark, 32×32 |
 | Design tokens | [`../assets/design-tokens.json`](../assets/design-tokens.json) | Full token set |
+| Wireframe Krok 1 | [`../assets/Wireframe-1-formularz-zgloszeniowy.png`](../assets/Wireframe-1-formularz-zgloszeniowy.png) | Formularz zgłoszeniowy (rodzaj, kategoria, model, data, opis, zdjęcie) |
+| Wireframe Krok 2 | [`../assets/Wireframe-2-wstepna-decyzja-czat.png`](../assets/Wireframe-2-wstepna-decyzja-czat.png) | Widok czatu po przesłaniu formularza z wstępną decyzją |
+| Wireframe Krok 3 | [`../assets/Wireframe-3-rewizja-rekomendacji-czat.png`](../assets/Wireframe-3-rewizja-rekomendacji-czat.png) | Widok czatu po przesłaniu dodatkowego zdjęcia i aktualizacji decyzji |
+
 
 > The original `favicon32.png` is served via a git-LFS-backed CDN and could not be
 > downloaded as a binary in this environment, so a crisp, scalable `favicon.svg`
@@ -194,3 +198,16 @@ readable. Rounded pill buttons that subtly grow on hover, perfectly circular pla
 controls, and softly rounded `6px` cover-art tiles make the interface feel
 tactile and playful. The overall vibe is modern, confident, and unmistakably
 music-first — minimal chrome, maximum content.
+
+---
+
+## 9. Design Wireframes
+
+These wireframes illustrate the functional steps and visual layout of the application phases:
+
+| Phase / Step | Wireframe File | Description |
+|---|---|---|
+| **Krok 1: Formularz** | [`../assets/Wireframe-1-formularz-zgloszeniowy.png`](../assets/Wireframe-1-formularz-zgloszeniowy.png) | Formularz zgłoszeniowy (Intake Form) z polami rodzaju zgłoszenia, kategorii, modelu, daty zakupu, opisu usterki oraz wgraniem zdjęcia. |
+| **Krok 2: Wstępna decyzja** | [`../assets/Wireframe-2-wstepna-decyzja-czat.png`](../assets/Wireframe-2-wstepna-decyzja-czat.png) | Pierwsza odpowiedź asystenta w widoku czatu przedstawiająca wstępną decyzję (np. zwrot możliwy), uzasadnienie, kolejne kroki i zastrzeżenie prawne. |
+| **Krok 3: Rewizja rekomendacji** | [`../assets/Wireframe-3-rewizja-rekomendacji-czat.png`](../assets/Wireframe-3-rewizja-rekomendacji-czat.png) | Dalsza konwersacja w czacie, gdzie użytkownik dopytuje o szczegóły i przesyła dodatkowe zdjęcie (np. uszkodzonego pudełka), a asystent aktualizuje rekomendację na warunkową. |
+
