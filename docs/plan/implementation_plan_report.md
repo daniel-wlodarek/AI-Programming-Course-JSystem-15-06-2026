@@ -21,7 +21,7 @@ The final acceptance gate passed after `app/.env` was provided locally and real 
 - Added TypeScript, App Router, Tailwind CSS, ESLint, Vitest, Testing Library, Playwright, AI SDK packages, Zod, Sharp, and Lucide icons.
 - Added initial app shell, Polish metadata, logo/favicon assets, and baseline smoke test.
 
-Commit: `543df7f Frontend: scaffold Next.js app`
+Commit: `16e77d1 Frontend: scaffold Next.js app`
 
 ### T2 - Shared Contracts and Validation
 
@@ -30,7 +30,7 @@ Commit: `543df7f Frontend: scaffold Next.js app`
 - Added OpenRouter environment contract for API key, chat model, vision model, base URL, and optional attribution headers.
 - Extended `.env.example`.
 
-Commit: `0a60529 Backend: add shared contracts and validation`
+Commit: `817a024 Backend: add shared contracts and validation`
 
 ### T3 - AI Pipeline Core
 
@@ -43,7 +43,7 @@ Commit: `0a60529 Backend: add shared contracts and validation`
   - `OPENROUTER_VISION_MODEL` for image analysis.
   - `OPENROUTER_CHAT_MODEL` for structured decision and chat.
 
-Commit: `50d5d23 Backend: add AI pipeline core`
+Commit: `7aeabd3 Backend: add AI pipeline core`
 
 ### T4 - Intake Form
 
@@ -52,7 +52,7 @@ Commit: `50d5d23 Backend: add AI pipeline core`
 - Added PRD equipment categories, equipment model/name, purchase date, reason, and single image upload.
 - Enforced complaint reason, future-date blocking, accepted image formats, 10 MB client limit, and single-image behavior.
 
-Commit: `5283e9a Frontend: add intake form`
+Commit: `2b955c7 Frontend: add intake form`
 
 ### T5 - Assessment API
 
@@ -66,7 +66,7 @@ Commit: `5283e9a Frontend: add intake form`
 - Returned retryable Polish AI service errors without fabricating a decision.
 - Tests prove invalid requests do not call the AI adapter.
 
-Commit: `5518978 Backend: add assessment API`
+Commit: `11104a3 Backend: add assessment API`
 
 ### T6 - Frontend Assessment Flow
 
@@ -77,7 +77,7 @@ Commit: `5518978 Backend: add assessment API`
 - Rendered structured decision card with greeting, decision, justification, next steps, and disclaimer.
 - Added visually distinct status label.
 
-Commit: `3fd24ab Frontend: connect assessment flow`
+Commit: `2d8703c Frontend: connect assessment flow`
 
 ### T7 - Chat API
 
@@ -88,7 +88,7 @@ Commit: `3fd24ab Frontend: connect assessment flow`
 - Added retryable chat error handling.
 - Included off-topic prompt rules that redirect back to the active case.
 
-Commit: `a99b707 Backend: add chat API`
+Commit: `34135c3 Backend: add chat API`
 
 ### T8 - Chat UI
 
@@ -100,7 +100,7 @@ Commit: `a99b707 Backend: add chat API`
 - Added `Rozpocznij nowe zgłoszenie` to clear session and return to an empty form.
 - Added revised recommendation label when model text indicates an update.
 
-Commit: `a5e5d60 Frontend: add chat experience`
+Commit: `2b5a66e Frontend: add chat experience`
 
 ### T9 - Real OpenRouter E2E
 
@@ -120,7 +120,7 @@ Commit: `a5e5d60 Frontend: add chat experience`
 - No route mocking is used.
 - No visual snapshots are used.
 
-Commit: `b06a786 QA: add real API e2e coverage`
+Commit: `5203e5d QA: add real API e2e coverage`
 
 ### QA Follow-up Fixes
 
@@ -131,9 +131,9 @@ Commit: `b06a786 QA: add real API e2e coverage`
 
 Commits:
 
-- `0d8bb77 QA: silence e2e color env warning`
-- `1f3e011 QA: load e2e env from app env file`
-- `e20d9fc QA: wait for streamed chat responses`
+- `ddef72a QA: silence e2e color env warning`
+- `19f227f QA: load e2e env from app env file`
+- `04c7309 QA: wait for streamed chat responses`
 
 ## Environment Configuration
 
